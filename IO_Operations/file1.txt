@@ -1,0 +1,2 @@
+Hello world!
+This is Priyasha Narang.& C:/Users/priya/AppData/Local/Programs/Python/Python312/python.exe "c:/Users/priya/OneDrive/Desktop/wipro programs/IO_Operations/iooperations.py"
