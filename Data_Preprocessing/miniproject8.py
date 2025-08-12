@@ -10,6 +10,7 @@ Handle the categorical data
 """
 import pandas as pd
 df=pd.read_csv('melb_data.csv')
+df.drop_duplicates(inplace=True)
 df.Lattitude.fillna(round(df.Lattitude.mean()),inplace=True)
 df.Longtitude.fillna(round(df.Longtitude.mean()),inplace=True)
 df.Bedroom2.fillna(df.Bedroom2.median(),inplace=True)
